@@ -27,27 +27,24 @@ body {
   height: 40px;
 }
 
-.ul_list {
+.nav_list {
   display: flex;
   align-items: center;
   list-style: none;
   text-transform: uppercase;
 }
 
-.ul_list li {
-  height: 15px;
-}
-
-.ul_list li:not(:last-child) {
+.menu:not(:last-child) {
   margin-right: 20px;
 }
 
-.ul_list a {
+.navigation_link {
   text-decoration: none;
   color: #000;
+  height: 15px;
 }
 
-.ul_list a:hover {
+.navigation_link:hover {
   color: var(--active-color);
 }
 
